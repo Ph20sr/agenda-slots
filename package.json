@@ -1,0 +1,12 @@
+{
+  "name": "agenda-slots",
+  "version": "1.0.0",
+  "description": "Motor de horários disponíveis para agendamento: expediente, intervalos, feriados, buffers, antecedência, vários profissionais e validação na hora de gravar. Zero dependências.",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "keywords": ["agendamento", "booking", "scheduling", "slots", "clinica", "barbearia", "disponibilidade"],
+  "license": "MIT"
+}
